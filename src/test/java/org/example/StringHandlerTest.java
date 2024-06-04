@@ -13,4 +13,16 @@ public class StringHandlerTest {
     public void testStrHandler2() {
         StringHandler.strAdvancedHandler("abcccbad");
     }
+
+    @Test
+    public void testStrHandler3() {
+        System.out.println(Elimination.elimination("aabcccbbad"));
+
+    }
+
+    @Test
+    public void testStrHandler4() {
+        System.out.println(Elimination.backwardElimination("aabcccbbad"));
+
+    }
 }
